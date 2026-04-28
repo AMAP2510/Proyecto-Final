@@ -1,10 +1,10 @@
-# 🕊️ Predictor de Tasa de Víctimas NNA
+# Predictor de Tasa de Víctimas NNA
 
 Aplicación interactiva para predecir la tasa de víctimas de reclutamiento y utilización de niños, niñas y adolescentes (NNA) en el conflicto armado colombiano, basada en datos del **SIEVCAC**.
 
 ---
 
-## 📌 Descripción
+## Descripción
 
 Esta aplicación despliega un modelo de **Machine Learning** entrenado con datos históricos del conflicto armado colombiano. Permite estimar la **tasa de víctimas por cada 100.000 habitantes** a partir de dos variables:
 
@@ -13,7 +13,7 @@ Esta aplicación despliega un modelo de **Machine Learning** entrenado con datos
 
 ---
 
-## 🤖 Modelo
+## Modelo
 
 | Característica | Detalle |
 |---|---|
@@ -27,7 +27,7 @@ Se evaluaron 5 modelos (Decision Tree, Extra Trees, Gradient Boosting, CatBoost,
 
 ---
 
-## 🚀 Cómo usar la aplicación
+## Cómo usar la aplicación
 
 1. Ingresa el **total de víctimas** del caso
 2. Ingresa la **población** del municipio o departamento
@@ -36,7 +36,7 @@ Se evaluaron 5 modelos (Decision Tree, Extra Trees, Gradient Boosting, CatBoost,
 
 ---
 
-## ⚙️ Instalación local
+## Instalación local
 
 ```bash
 # Clonar el repositorio
@@ -54,7 +54,7 @@ Asegúrate de tener el archivo `modelo_victimas.pkl` en la misma carpeta.
 
 ---
 
-## 📁 Estructura del proyecto
+## structura del proyecto
 
 ```
 ├── app.py                  # Aplicación principal de Streamlit
@@ -65,7 +65,7 @@ Asegúrate de tener el archivo `modelo_victimas.pkl` en la misma carpeta.
 
 ---
 
-## ⚠️ Limitaciones
+## Limitaciones
 
 - El modelo fue entrenado con datos de los últimos 3 años del SIEVCAC.
 - Las predicciones son estimaciones estadísticas, no cifras oficiales.
@@ -73,10 +73,10 @@ Asegúrate de tener el archivo `modelo_victimas.pkl` en la misma carpeta.
 
 ---
 
-## 👩‍💻 Autoras
+## utoras
 
 - Andrea Arenas Posada  
 - Daniela Arizmendi Baron  
 - Mariana Olivares Gomez  
 
-**Proyecto en Analítica Aplicada · 2025**
+**Proyecto en Analítica Aplicada · 2026**
